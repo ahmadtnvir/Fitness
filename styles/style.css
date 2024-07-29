@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #111111;
+}
+
+/* Shared */
+.header {
+  border: 2px solid red; /*Temporary*/
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  background-color: linear-gradient(
+    180deg,
+    #111 0%,
+    rgba(119, 119, 119, 0) 100%
+  );
+  height: 715px;
+}
+
+.navbar_section {
+  /* border: 2px solid darkred; Temporary */
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  /* border: 2px dashed darkseagreen; Temporary */
+  flex: 1;
+}
+
+.logo > img {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+.nav_items {
+  border: 1px solid #ffffff1a;
+  padding: 4px 23px 4px 4px;
+  border-radius: 150px;
+  flex: 1;
+}
+
+.nav_items > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_items > nav > ul > li > a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#home {
+  background: #e6533c;
+  padding: 10px 20px;
+  border-radius: 150px;
+}
+
+#hamburger {
+  display: none;
+}
+
+/* End */
+
+/*! Small */
+
+@media screen and (max-width: 576px) {
+  /* Shared */
+  .header {
+    width: 95%;
+  }
+
+  /* Header */
+
+  .logo > img {
+    width: 80%;
+  }
+
+  .nav_items {
+    display: none;
+  }
+
+  #hamburger {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 28px;
+    color: #ffffff;
+  }
+  #hamburger:hover {
+    color: #e6533c;
+  }
+
+  /* Header End */
+}
+/* End */
+
+/*! Medium */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* Shared */
+  .header {
+    width: 95%;
+  }
+
+  /* Header */
+
+  .logo > img {
+    width: 80%;
+  }
+  .nav_items > nav > ul > li > a {
+    font-size: 16px;
+  }
+  /* Header End */
+}
+/* End */
+
+/*! Large */
+
+@media screen and (max-width: 1024px) {
+  /* Shared */
+  .header {
+    width: 95%;
+  }
+
+  /* Header */
+
+  .logo > img {
+    width: 80%;
+  }
+  .nav_items > nav > ul > li > a {
+    font-size: 16px;
+  }
+  /* Header End */
+}
+
+/* End */
