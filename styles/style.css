@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@font-face {
+  font-family: myFont;
+  src: url(../font/Miama.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +22,16 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  background: #e6533c;
+  padding: 18px 40px;
+  border-radius: 150px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
 /* Header */
 .header {
   background-color: linear-gradient(
@@ -24,13 +39,16 @@ body {
     #111 0%,
     rgba(119, 119, 119, 0) 100%
   );
-  height: 715px;
+  min-height: 750px;
+  padding-top: 52px;
 }
 
+/* Navbar */
 .navbar_section {
-  /* border: 2px solid darkred; Temporary */
+  border: 2px solid darkred; /*Temporary*/
   display: flex;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 .logo {
@@ -76,80 +94,61 @@ body {
 #hamburger {
   display: none;
 }
+/* Navbar End */
 
-/* End */
-
-/*! Small */
-
-@media screen and (max-width: 576px) {
-  /* Shared */
-  .header {
-    width: 95%;
-  }
-
-  /* Header */
-
-  .logo > img {
-    width: 80%;
-  }
-
-  .nav_items {
-    display: none;
-  }
-
-  #hamburger {
-    display: block;
-    position: absolute;
-    top: 80px;
-    right: 20px;
-    cursor: pointer;
-    font-size: 28px;
-    color: #ffffff;
-  }
-  #hamburger:hover {
-    color: #e6533c;
-  }
-
-  /* Header End */
+/* Banner */
+.banner_section {
+  border: 2px solid darkgoldenrod; /*Temporary*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-/* End */
 
-/*! Medium */
-@media screen and (min-width: 576px) and (max-width: 992px) {
-  /* Shared */
-  .header {
-    width: 95%;
-  }
-
-  /* Header */
-
-  .logo > img {
-    width: 80%;
-  }
-  .nav_items > nav > ul > li > a {
-    font-size: 16px;
-  }
-  /* Header End */
+.banner_text {
+  flex: 1;
 }
-/* End */
 
-/*! Large */
-
-@media screen and (max-width: 1024px) {
-  /* Shared */
-  .header {
-    width: 95%;
-  }
-
-  /* Header */
-
-  .logo > img {
-    width: 80%;
-  }
-  .nav_items > nav > ul > li > a {
-    font-size: 16px;
-  }
-  /* Header End */
+.banner_text > h1 {
+  color: #fff;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 94px;
+  width: 75%;
 }
+
+#shape {
+  font-family: myFont;
+  font-weight: 400;
+  font-size: 120px;
+  letter-spacing: 8px;
+}
+
+.banner_text > p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin: 28px 0;
+  width: 75%;
+}
+
+.download_btn {
+  background: transparent;
+  padding: 18px 40px;
+  border: 2px solid #ffffff;
+  border-radius: 150px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  margin-left: 14px;
+}
+
+.banner_img {
+  flex: 1;
+  text-align: center;
+}
+/* Banner End */
 
 /* End */
