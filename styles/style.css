@@ -17,7 +17,6 @@ body {
 
 /* Shared */
 .header {
-  border: 2px solid red; /*Temporary*/
   width: 90%;
   margin: 0 auto;
 }
@@ -34,25 +33,18 @@ body {
 
 /* Header */
 .header {
-  background-color: linear-gradient(
-    180deg,
-    #111 0%,
-    rgba(119, 119, 119, 0) 100%
-  );
   min-height: 750px;
   padding-top: 52px;
 }
 
 /* Navbar */
 .navbar_section {
-  border: 2px solid darkred; /*Temporary*/
   display: flex;
   align-items: center;
   margin-bottom: 32px;
 }
 
 .logo {
-  /* border: 2px dashed darkseagreen; Temporary */
   flex: 1;
 }
 
@@ -98,7 +90,7 @@ body {
 
 /* Banner */
 .banner_section {
-  border: 2px solid darkgoldenrod; /*Temporary*/
+  background: linear-gradient(90deg, rgba(67, 67, 67, 0.096), #77777700);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,7 +140,66 @@ body {
 .banner_img {
   flex: 1;
   text-align: center;
+  position: relative;
+}
+
+.token_1,
+.token_2 {
+  padding: 20px 23px;
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: #3030308a;
+  position: absolute;
+}
+
+.token_1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  top: 71%;
+  left: 8%;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background: #e6533c;
+}
+
+.token_1 h3,
+.token_2 h3 {
+  text-align: start;
+  color: #fafaf9;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+.token_2 h3 {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+.token_1 p,
+.token_2 p {
+  color: #efede8a6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.token_2 {
+  position: absolute;
+  top: 20%;
+  right: 10%;
 }
 /* Banner End */
-
-/* End */
+/* Header End */
