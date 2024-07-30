@@ -3,7 +3,8 @@
 @media screen and (max-width: 576px) {
   /* Shared */
   .header,
-  .habits_section {
+  .habits_section,
+  .extra_work_section {
     width: 95%;
   }
 
@@ -131,6 +132,23 @@
     gap: 40px;
   }
   /* Habits End */
+
+  /* Extra Work Start */
+  .extra_work_section {
+    padding: 33px;
+    flex-direction: column;
+    gap: 31px;
+  }
+
+  .extra_work_title > p {
+    margin: 14px 0 24px 0;
+    width: 90%;
+  }
+
+  .extra_work_title > button {
+    width: 100%;
+  }
+  /* Extra Work End */
   /* Main End */
 }
 /* End */
@@ -139,8 +157,14 @@
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* Shared */
   .header,
-  .habits_section {
+  .habits_section,
+  .extra_work_section {
     width: 95%;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 43px;
   }
 
   /* Header */
@@ -205,6 +229,18 @@
     justify-content: center;
   }
   /* Habits End */
+
+  /* Extra Work Start */
+  .extra_work_section {
+    padding: 40px 49px;
+    gap: 68px;
+  }
+
+  .extra_work_title > p {
+    margin: 14px 0 34px 0;
+    width: 90%;
+  }
+  /* Extra Work End */
   /* Main End */
 }
 /* End */
@@ -279,6 +315,18 @@
     justify-content: center;
   }
   /* Habits End */
+
+  /* Extra Work Start */
+  .extra_work_section {
+    padding: 40px 49px;
+    gap: 68px;
+  }
+
+  .extra_work_title > p {
+    margin: 14px 0 34px 0;
+    width: 90%;
+  }
+  /* Extra Work End */
   /* Main End */
 }
 

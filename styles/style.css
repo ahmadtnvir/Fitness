@@ -17,7 +17,8 @@ body {
 
 /* Shared */
 .header,
-.habits_section {
+.habits_section,
+.extra_work_section {
   width: 90%;
   margin: 0 auto;
 }
@@ -25,6 +26,7 @@ body {
 .btn {
   background: #e6533c;
   padding: 18px 40px;
+  border: none;
   border-radius: 150px;
   color: #ffffff;
   font-size: 18px;
@@ -268,4 +270,36 @@ body {
   border-radius: 50%;
 }
 /* Habits End */
+
+/* Extra Work Start */
+.extra_work_section {
+  background: #222222;
+  padding: 30px 43px;
+  display: flex;
+  gap: 165px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  margin-bottom: 100px;
+}
+
+.extra_work_title {
+  flex: 1;
+}
+
+.extra_work_title > p {
+  margin: 14px 0 34px 0;
+  width: 70%;
+}
+
+.extra_work_img {
+  flex: 1;
+}
+
+.extra_work_img > img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+}
+/* Extra Work End */
 /* Main End */
