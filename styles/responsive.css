@@ -4,7 +4,8 @@
   /* Shared */
   .header,
   .habits_section,
-  .extra_work_section {
+  .extra_work_section,
+  .training_section {
     width: 95%;
   }
 
@@ -149,16 +150,79 @@
     width: 100%;
   }
   /* Extra Work End */
+
+  /* Training Start */
+  .training_title {
+    width: 95%;
+  }
+
+  .all_img_container {
+    display: block;
+  }
+
+  .img_row1 {
+    display: grid;
+    grid-template-columns: 160px auto;
+  }
+
+  .img_row2 {
+    display: grid;
+    grid-template-columns: 180px auto;
+  }
+
+  .img_row3 {
+    display: grid;
+    grid-template-columns: 160px auto;
+  }
+
+  .imgs_row1 {
+    display: none;
+  }
+
+  .big_img {
+    grid-column: span 1;
+  }
+
+  .imgs_row2 {
+    display: none;
+  }
+
+  #lunges > span {
+    left: 40%;
+  }
+
+  #pushup > span {
+    left: 30%;
+  }
+
+  #jumping > span {
+    left: 40%;
+  }
+
+  #backup > span {
+    right: 2%;
+  }
+
+  #squats > span {
+    left: 40%;
+  }
+
+  #crunches > span {
+    left: 25%;
+  }
+  /* Training End */
+
   /* Main End */
 }
-/* End */
+/*! End */
 
 /*! Medium */
 @media screen and (min-width: 576px) and (max-width: 992px) {
   /* Shared */
   .header,
   .habits_section,
-  .extra_work_section {
+  .extra_work_section,
+  .training_section {
     width: 95%;
   }
 
@@ -241,9 +305,40 @@
     width: 90%;
   }
   /* Extra Work End */
+
+  /* Training Start */
+  .training_title {
+    width: 95%;
+  }
+
+  #lunges > span {
+    left: 40%;
+  }
+
+  #pushup > span {
+    left: 30%;
+  }
+
+  #jumping > span {
+    left: 40%;
+  }
+
+  #backup > span {
+    right: 2%;
+  }
+
+  #squats > span {
+    left: 40%;
+  }
+
+  #crunches > span {
+    left: 25%;
+  }
+  /* Training End */
+
   /* Main End */
 }
-/* End */
+/*! End */
 
 /*! Large */
 
@@ -327,7 +422,38 @@
     width: 90%;
   }
   /* Extra Work End */
+
+  /* Training Start */
+  .training_title {
+    width: 95%;
+  }
+
+  #lunges > span {
+    left: 40%;
+  }
+
+  #pushup > span {
+    left: 30%;
+  }
+
+  #jumping > span {
+    left: 40%;
+  }
+
+  #backup > span {
+    right: 2%;
+  }
+
+  #squats > span {
+    left: 40%;
+  }
+
+  #crunches > span {
+    left: 25%;
+  }
+  /* Training End */
+
   /* Main End */
 }
 
-/* End */
+/*! End */
