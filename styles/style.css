@@ -19,7 +19,8 @@ body {
 .header,
 .habits_section,
 .extra_work_section,
-.training_section {
+.training_section,
+.calculation_container {
   width: 90%;
   margin: 0 auto;
 }
@@ -40,6 +41,7 @@ body {
   font-size: 48px;
   font-weight: 900;
   line-height: 58px;
+  margin-bottom: 14px;
 }
 
 .title_description {
@@ -305,6 +307,10 @@ body {
 /* Extra Work End */
 
 /* Training Start */
+.training_section {
+  margin-bottom: 88px;
+}
+
 .training_title {
   width: 50%;
   margin-bottom: 58px;
@@ -415,4 +421,122 @@ body {
 }
 
 /* Training End */
+
+/* Calculator Start */
+.calculator_section {
+  margin-bottom: 88px;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 34px;
+}
+
+.calculator_title {
+  width: 80%;
+  margin: 0 auto 88px;
+}
+
+.calculation {
+  background: #222222;
+}
+
+.calculation_container {
+  display: flex;
+  padding: 49px 0;
+  gap: 50px;
+}
+
+.calculation_data {
+  flex: 1;
+}
+
+.calculation_form {
+  flex: 1;
+}
+
+.calculation_data > h4 {
+  margin-bottom: 52px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #ffffff1a;
+  text-align: left;
+  padding: 15px 18px;
+}
+
+th {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+td {
+  color: #ffffff80;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.calculation_form > p {
+  margin: 14px 0 34px 0;
+}
+
+.calculation_form > form {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 34px;
+}
+
+form > input {
+  padding: 12px 20px;
+  border: none;
+  width: 48.7%;
+  border-radius: 8px;
+  background: #ffffff1a;
+  color: #ffffff80;
+  outline: none;
+}
+
+form > select {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ffffff1a;
+  outline: none;
+  color: #ffffff99;
+}
+
+form > select > option {
+  background: #e6533c;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+#sex {
+  width: 48.7%;
+}
+
+#activity {
+  width: 100%;
+}
+
+/* Calculator End */
 /* Main End */
