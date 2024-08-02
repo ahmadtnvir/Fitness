@@ -6,7 +6,11 @@
   .habits_section,
   .extra_work_section,
   .training_section,
-  .calculation_container {
+  .calculation_container,
+  .team_section,
+  .footer_section,
+  .rights,
+  .success_stories_section {
     width: 95%;
   }
 
@@ -248,7 +252,56 @@
 
   /* Calculator End */
 
+  /* Team Section Start */
+  .team_section {
+    margin-bottom: 66px;
+  }
+
+  .team_title {
+    width: 90%;
+    margin: 0 auto 37px;
+  }
+
+  .team_img_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* Team Section End */
+
+  /* Success Stories Section Start  */
+
+  .success_title {
+    width: 80%;
+  }
+
+  .stories {
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* Success Stories Section End  */
+
   /* Main End */
+
+  /* Footer Start */
+
+  .footer_section {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer_title > img {
+    width: 80%;
+  }
+
+  .footer_details th {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .footer_details td {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  /* Footer End */
 }
 /*! End */
 
@@ -259,7 +312,11 @@
   .habits_section,
   .extra_work_section,
   .training_section,
-  .calculation_container {
+  .calculation_container,
+  .team_section,
+  .footer_section,
+  .rights,
+  .success_stories_section {
     width: 95%;
   }
 
@@ -395,7 +452,54 @@
 
   /* Calculator End */
 
+  /* Team Section Start */
+  .team_section {
+    margin-bottom: 66px;
+  }
+
+  .team_title {
+    width: 90%;
+    margin: 0 auto 37px;
+  }
+
+  .team_img_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* Team Section End */
+
+  /* Success Stories Section Start  */
+
+  .success_title {
+    width: 80%;
+  }
+
+  .stories {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .story p {
+    width: 80%;
+  }
+  /* Success Stories Section End  */
+
   /* Main End */
+
+  /* Footer Start */
+
+  .footer_section {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer_title {
+    width: 80%;
+  }
+
+  .footer_title > img {
+    width: 60%;
+  }
+  /* Footer End */
 }
 /*! End */
 
@@ -542,7 +646,30 @@
 
   /* Calculator End */
 
+  /* Success Stories Section Start  */
+
+  .stories {
+    gap: 10px;
+  }
+  /* Success Stories Section End  */
+
   /* Main End */
+
+  /* Footer Start */
+
+  .footer_section {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .footer_title {
+    width: 80%;
+  }
+
+  .footer_title > img {
+    width: 60%;
+  }
+  /* Footer End */
 }
 
 /*! End */

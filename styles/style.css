@@ -20,7 +20,11 @@ body {
 .habits_section,
 .extra_work_section,
 .training_section,
-.calculation_container {
+.calculation_container,
+.team_section,
+.footer_section,
+.rights,
+.success_stories_section {
   width: 90%;
   margin: 0 auto;
 }
@@ -507,7 +511,7 @@ form {
 form > input {
   padding: 12px 20px;
   border: none;
-  width: 48.7%;
+  width: 48.5%;
   border-radius: 8px;
   background: #ffffff1a;
   color: #ffffff80;
@@ -531,7 +535,7 @@ form > select > option {
 }
 
 #sex {
-  width: 48.7%;
+  width: 48.5%;
 }
 
 #activity {
@@ -539,4 +543,160 @@ form > select > option {
 }
 
 /* Calculator End */
+
+/* Team Section Start */
+.team_section {
+  margin-bottom: 88px;
+}
+
+.team_title {
+  width: 70%;
+  margin: 0 auto 58px;
+  text-align: center;
+}
+
+.team_img_container {
+  background: #ffffff1a;
+  padding: 20px;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  overflow: hidden;
+}
+
+.trainer img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.8);
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.trainer {
+  position: relative;
+  height: 400px;
+}
+
+.trainer_details {
+  position: absolute;
+  transform: translate(-10%, -20%);
+  bottom: 50px;
+  left: 50px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+}
+/* Team Section End */
+
+/* Success Stories Section Start  */
+.success_stories_section {
+  margin-bottom: 88px;
+}
+
+.success_title {
+  width: 70%;
+  margin: 0 auto 58px;
+  text-align: center;
+}
+
+.stories {
+  background: #ffffff1a;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 18px;
+}
+
+.story {
+  width: 100%;
+  background: linear-gradient(90deg, rgba(205, 202, 202, 0.052), #4747470f);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.story h4 {
+  margin: 30px 0 14px 0;
+}
+
+.story img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.story_img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/* Success Stories Section End  */
+
 /* Main End */
+
+/* Footer Start */
+footer {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 66px 0 35px 0;
+}
+
+.footer_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 100px;
+}
+
+.footer_title {
+  flex: 1;
+}
+
+.footer_title > img {
+  width: 50%;
+}
+
+.footer_details {
+  flex: 1;
+}
+
+.footer_details th {
+  border: none;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.footer_details td {
+  border: none;
+  color: #ffffff80;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.rights {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.rights > hr {
+  color: #ffffff1a;
+  margin-bottom: 36px;
+}
+
+.rights > small {
+  color: #ffffff80;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+/* Footer End */
