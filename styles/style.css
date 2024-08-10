@@ -2,10 +2,7 @@
 
 @font-face {
   font-family: myFont;
-  /* src: url(../font/Miama.ttf); */
-  /* src: url("https://drive.google.com/uc?export=download&id=1vGhJzu4DfSDLYEPCxwYfNHOODPlj2uiq"); */
   src: url("https://raw.githubusercontent.com/ahmadtnvir/Fitness/main/assets/font/Miama.ttf");
-  /* https://drive.google.com/file/d//view?usp=drive_link */
 }
 * {
   margin: 0;
@@ -31,17 +28,6 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-
-/* .btn {
-  background: #e6533c;
-  padding: 18px 40px;
-  border: none;
-  border-radius: 150px;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 22px;
-} */
 
 .title {
   color: #ffffff;
@@ -106,7 +92,6 @@ body {
 }
 
 .nav_item {
-  /* background: #e6533c; */
   padding: 10px 20px;
   border-radius: 150px;
 }
@@ -167,30 +152,13 @@ body {
   font-weight: 600;
   line-height: 22px;
   margin-left: 14px;
+  cursor: pointer;
 }
 
 .btn:hover {
   background: #e6533c;
-  padding: 18px 40px;
-  border: none;
-  border-radius: 150px;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 22px;
-  cursor: pointer;
+  border: 2px solid #e6533c;
 }
-/* .download_btn {
-  background: transparent;
-  padding: 18px 40px;
-  border: 2px solid #ffffff;
-  border-radius: 150px;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 22px;
-  margin-left: 14px;
-} */
 
 .banner_img {
   flex: 1;
