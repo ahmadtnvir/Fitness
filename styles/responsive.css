@@ -14,13 +14,13 @@
     width: 95%;
   }
 
-  .btn {
+  /* .btn {
     padding: 16px 28px;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
     margin-right: 14px;
-  }
+  } */
 
   .title {
     font-size: 32px;
@@ -73,7 +73,7 @@
     width: 65%;
   }
 
-  .download_btn {
+  .btn {
     padding: 16px 28px;
     margin: 14px 0 0 0;
   }
