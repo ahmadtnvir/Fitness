@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: myFont;
-  src: url(../font/Miama.ttf);
+  /* src: url(../font/Miama.ttf); */
+  src: url('../font/Miama.ttf');
 }
 * {
   margin: 0;
