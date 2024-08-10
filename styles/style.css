@@ -3,7 +3,9 @@
 @font-face {
   font-family: myFont;
   /* src: url(../font/Miama.ttf); */
-  src: url('https://drive.google.com/uc?export=download&id=1vGhJzu4DfSDLYEPCxwYfNHOODPlj2uiq');
+  /* src: url("https://drive.google.com/uc?export=download&id=1vGhJzu4DfSDLYEPCxwYfNHOODPlj2uiq"); */
+  src: url("https://drive.google.com/uc?export=download&id=1vGhJzu4DfSDLYEPCxwYfNHOODPlj2uiq");
+  /* https://drive.google.com/file/d//view?usp=drive_link */
 }
 * {
   margin: 0;
